@@ -18,7 +18,7 @@ let movieName = process.argv[2];
             [page.click("#suggestion-search-button")],
             page.waitForNavigation({ waitUntil: "networkidle2" })
         );
-        let searchedMovies = await page.waitForSelector(".findSection .findList tbody tr td");
+        let searchedMovies = await page.waitForSelector(".findSection .findList tbody tr td a");
         setTimeout(() => { 3000 });
         await Promise.all(
             [page.click(".findSection .findList tbody tr td a")],
@@ -29,7 +29,7 @@ let movieName = process.argv[2];
         let elem1 = await page.$('.title_wrapper h1');
         let movieData = await page.evaluate(function(el) {
             console.log("Entering fn")
-            let title = el.textContent;
+            let title = el.textContent.trim();
             return title;
         }, elem1)
         console.log("Name of Movie:  " + movieData)
