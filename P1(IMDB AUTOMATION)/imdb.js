@@ -26,17 +26,18 @@ let movieName = process.argv[2];
         );
 
         await page.waitForSelector('.title_wrapper h1', { visible: true })
-        let elem1 = await page.$('.title_wrapper h1');
+        // let elem1 = await page.$('.title_wrapper h1');
+        let elem1 = document.querySelector(".title_wrapper h1");
         let movieData = await page.evaluate(function(el) {
             console.log("Entering fn")
             let title = el.textContent.trim();
             return title;
         }, elem1)
-        console.log("Name of Movie:  " + movieData)
+        console.log("Name of Movie:  " + movieData);
         let elem2 = await page.$('.imdbRating .ratingValue span');
         let ratingData = await page.evaluate(function(el) {
             let rating = el.textContent;
-            return rating
+            return rating;
         }, elem2)
         console.log("Ratings of Movie:  " + ratingData)
         await page.waitForSelector('.plot_summary_wrapper .plot_summary .credit_summary_item a');
