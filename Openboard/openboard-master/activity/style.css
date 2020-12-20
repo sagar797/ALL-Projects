@@ -1,26 +1,23 @@
-.tool-bar{
+.toolbar{
     height: 80px;
     display: flex;
     justify-content: space-between;
 }
 .hamburger{
-height: 90%;
-width:15%;
-background-color: yellow;
+    height: 90%;
+    width: 15%;
+    background-color: yellow;
 }
 .tool-panel{
-height:90%;
-width:80%;
-background-color: lightcoral;
-display: flex;
-justify-content: center;
+    height: 90%;
+    width: 80%;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
 }
 .tool{
-height: 90%;;
-position: relative;
-}
-.tool-img{
     height: 90%;
+    position: relative;
 }
 .tool-options{
     position: absolute;
@@ -29,8 +26,11 @@ position: relative;
     background: yellow;
     height: 6rem;
     width: 9rem;
-    
     display: none;
+}
+
+.tool-img{
+    height: 90%;
 }
 .slider{
     height: 38%;
@@ -53,7 +53,6 @@ position: relative;
 }
 .blue{
     background-color: blue;
-
 }
 .green{
     background-color: green;
@@ -64,26 +63,19 @@ position: relative;
 .stickyPad{
     height: 14rem;
     width: 14rem;
-    min-width:10rem;
-    min-height: 10rem;
-    /* different layer */
-    /* align itself according to html page origin */
-    position: absolute;
     top: 40vh;
     left: 30vw;
-    background-color: tan;
-    resize:both;
-    overflow: auto;
+    border-radius: 6px;
+    position: absolute;
 }
 .nav-bar{
-    
     height: 20%;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
     padding-right: 11px;
+    background-color: tomato;
 }
-
 .close,.minimize{
     height: 46%;
     width: 10%;
@@ -99,13 +91,12 @@ position: relative;
 
 .textbox{
     height: 80%;
-    width:100%;
 }
 .textbox textarea{
     height: 100%;
     width: 100%;
 }
 .upload-img{
-    height:100%;
-    width:100%
+    height: 100%;
+    width: 100%;
 }
