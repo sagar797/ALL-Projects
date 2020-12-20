@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .tool-img {
+            height: 2rem;
+        }
+
+        .tools {
+            display: flex;
+        }
+        .tool-options {
+            height: 7rem;
+            width: 8rem;
+            background: yellow;
+        }
+
+        .tool-range {
+            height: 40%;
+            background: green;
+            /* trick */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .colors {
+            height: 60%;
+            background: brown;
+            display: flex;
+            /* horzionatlly  */
+            justify-content: space-evenly;
+           /* vertical alignment */
+            align-items: center;
+        }
+
+        .color {
+            height: 60%;
+            background: gray;
+            width: 25%;
+            border-radius: 50%;
+        }
+        .slider {
+            width: 80%
+        }
+
+        #red {
+            background: red;
+        }
+
+        #green {
+            background: green;
+        }
+
+        #blue {
+            background-color: blue;
+        }
+        .tool-options{
+            /* according to page top-left */
+            position: absolute;
+            top:40px;
+            left:40px; 
+        }
+        /* options -> hidden */
+        .hidden{
+            display: none;
+        }
+        /* sticky */
+.stickyPad{
+    height: 10rem;
+    width:9rem;
+    /* background:yellow; */
+    position: absolute;
+    left: 30vw;
+    top: 20vh;
+}
+.sticky-header{
+    height:20%;
+    background-color: purple;
+    display: flex;
+    /* /horizotal */
+     justify-content: flex-end;
+    /* /vertical */
+    align-items: center; 
+    padding-right:10px;
+}
+.circle{
+    height:60%;
+    width:1rem;
+    border-radius: 50%;;
+    margin-right:5px;
+}
+.close{
+    background-color: lightcoral;
+}
+.minimize{
+
+    background-color: lightgreen;
+}
+.sticky-writePad{
+    height: 80%;
+}
+textarea{
+    background-color: transparent;
+    width:100%;
+    height: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <div class="toolbar">
+        <div class="tools">
+            <div class="tool">
+                <img src="NewIcons/Black_Pencil.svg" alt="" class="tool-img" id="pencil">
+
+                <div class="tool-options hidden" id="pencil-options">
+                    <div class="tool-range">
+                        <input type="range" class="slider slider__pencil" min=5 max=32 val=5></div>
+                    <div class="colors">
+                        <div class="color" id="red"></div>
+                        <div class="color" id="green"></div>
+                        <div class="color" id="blue"></div>
+                    </div>
+                </div> 
+            </div>
+            <div class="tool">
+                <img src="NewIcons/Eraser.svg" alt="" class="tool-img" id="eraser">
+                <div class="tool-options hidden" id="eraser-options">
+                    <div class="tool-range 
+                    ">
+                        <input type="range" class=" slider slider__eraser" min=5 max=32 val=5></div> 
+                </div>
+                
+
+            </div>
+            <div class="tool">
+                <img src="NewIcons/StickyNote.svg" alt="" 
+                class="tool-img" id="sticky">
+
+            </div>
+            <div class="tool">
+                <img src="NewIcons/Undo.svg" alt="" 
+                class="tool-img" id="undo">
+
+            </div>
+            <div class="tool">
+                <img src="NewIcons/Redo.svg" alt="" 
+                class="tool-img" id="redo">
+
+            </div>
+        </div>
+    </div>
+    <canvas class="board"></canvas>
+    <script src="tool.js" defer></script>
+    <script src="draw.js" defer></script>
+    <script src="sticky.js" defer></script>
+    <!-- object  -->
+    
+   
+</body>
+
+</html>
