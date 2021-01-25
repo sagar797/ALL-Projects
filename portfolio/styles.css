@@ -1,45 +1,88 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
+/* ==========================navbar============================= */
+.txt-color-navbar {
+  color: white;
+}
+
+.txt-color-btn {
+  color: white;
+}
+
+.btn.btn-dark-transparent {
+  position: absolute;
+  border-color: white;
+  left: 43%;
+  top: 80%;
+}
+
+.btn.btn-dark-transparent:hover {
+  background-color:skyblue;
+}
 
 /* ===================================heading============================= */
-
 .heading {
-    position: absolute;
-    text-align: center;
-    top: 25%;
-    /* left: 10%; */
-    align-content: center;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 35%;
+  align-content: center;
+  font-family: monospace;
 }
 
 .heading h1 {
-    color: lightskyblue;
-    font-size: 60px;
+  color: white;
+  font-size: 60px;
+  padding-bottom: 10px;
 }
 
 .heading h3 {
-    color: lightskyblue;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 #particles-js {
-    background: black;
-    height: 100vh;
+  background: black;
+  height: 100vh;
 }
 
 .text-slider-items {
-    display: none;
+  display: none;
 }
 
 .text-slider {
-    color: lightskyblue;
+  color: white;
 }
 
+/* ======================handles================= */
+.handles {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
 
-/* .main-img {
-    height: 200px;
-    width: 200px;
-} */
+.handles i {
+  color: white;
+  margin: 20px;
+}
+
+.handles i:hover {
+  color: skyblue;
+}
+
+/* ======================about me=========================== */
+#aboutme{
+  background-color: lightgrey;
+  margin: 0px;
+  padding-top:40px;
+  display: flex;
+  text-align: center;
+}
+
+.right-abtme{
+  padding: 50px;
+}

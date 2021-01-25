@@ -2,42 +2,111 @@
 <html lang="en">
 
 <head>
-    <title>My Portfolio</title>
-    <!-- Import style.css from root directory -->
-    <link rel="stylesheet" href="./styles.css" />
+  <title>Sagar Gupta</title>
+  <link rel="icon" type="image/png" href="images/mylogo.png"/>
+  <!-- Import style.css from root directory -->
+  <link rel="stylesheet" href="./styles.css" />
 
-    <!-- fonts -->
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- fonts -->
 </head>
 
 <body>
-    <!-- Animated background using particles.js -->
-    <div id="particles-js">
-        <div class="heading">
-            <!-- <div class="text"> -->
-            <h3 class="name">Hi, My name is</h3>
-            <h1 class="name">Sagar Gupta</h1>
-            <h3 class="name">And I'm a
-                <span class="text-slider-items">Developer, Problem Solver, Coding Enthusiast</span>
-                <strong class="text-slider"></strong>
-            </h3>
-            <!-- </div> -->
-            <!-- <img class="main-img" src="./images/sagar-removebg-preview.png" alt=""> -->
-        </div>
+  <!-- Animated background using particles.js -->
+  <div id="particles-js">
+    <!-- =========================navbar======================= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark-transparent">
+      <a class="navbar-brand" href="#"><span class="txt-color-navbar"><span><</span>/Sagar Gupta></Navbar>
+          </span></a>
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><span class="txt-color-navbar">About</span> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="txt-color-navbar">Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="txt-color-navbar">Resume</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="txt-color-navbar">Skills</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><span class="txt-color-navbar">Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ==============name introduction animation text======================= -->
+    <div class="heading">
+      <!-- <div class="text"> -->
+      <h3>Hi, My name is</h3>
+      <h1>Sagar Gupta</h1>
+      <h3>And I'm a
+        <span class="text-slider-items">Developer, Problem Solver, Coding Enthusiast</span>
+        <strong class="text-slider"></strong>
+      </h3>
+      <!-- </div> -->
+      <!-- <img class="main-img" src="./images/sagar-removebg-preview.png" alt=""> -->
     </div>
 
-    <!-- jquery cdn -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- =========================social handles========================= -->
+    <div class="handles">
+      <a href="https://www.linkedin.com/in/sagar797/"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://www.instagram.com/isagar_gupta/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.facebook.com/sagar.gupta.5201254"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="https://github.com/sagar797"> <i class="fab fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/sagargu74936396"><i class="fab fa-twitter fa-2x"></i></a>
+    </div>
 
-    <!-- Import Particles.js and app.js files -->
-    <script src="./node_modules/particles.js/particles.js"></script>
-    <script src="./node_modules/particles.js/demo/js/app.js"></script>
+    <button type="button" class="btn btn-dark-transparent"><span class="txt-color-btn">More about me</span></button>
 
-    <!-- stats.js -->
-    <script src="./node_modules/particles.js/demo/js/lib/stats.js"></script>
+  </div>
 
-    <!-- typed animation name script file -->
-    <script src="./node_modules/typed.js/lib/typed.min.js"></script>
-    <script src="./js/text.js"></script>
+  <!-- ================================About me========================================== -->
+  <div id="aboutme">
+    <img class="abt-img" src="images/circle.png" alt="">
+    <div class="right-abtme">
+      <h1>About me</h1>
+      <p>My name is Sagar Gupta. I’m a graduate of 2021 from Guru Gobind Singh Indraprastha University, Delhi with a degree in Electronics and Communication Engineering. I'm most passionate about giving back to the
+        community, and my goal is to pursue
+        this passion within the field of software engineering. In my free time I like working on open source projects.</p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- =========================scripts====================== -->
+  <!-- navbar -->
+  <script src="js/nav.js" charset="utf-8"></script>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/68732ce216.js" crossorigin="anonymous"></script>
+
+  <!-- jquery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Import Particles.js and app.js files -->
+  <script src="./node_modules/particles.js/particles.js"></script>
+  <script src="./node_modules/particles.js/demo/js/app.js"></script>
+
+  <!-- stats.js -->
+  <script src="./node_modules/particles.js/demo/js/lib/stats.js"></script>
+
+  <!-- typed animation name script file -->
+  <script src="./node_modules/typed.js/lib/typed.min.js"></script>
+  <script src="./js/text.js"></script>
 </body>
 
 </html>
