@@ -5,6 +5,10 @@ body {
 }
 
 /* ==========================navbar============================= */
+.navbar.navbar-expand-lg.navbar-light.bg-dark-transparent {
+  position: fixed;
+}
+
 .txt-color-navbar {
   color: white;
 }
@@ -13,15 +17,18 @@ body {
   color: white;
 }
 
-.btn.btn-dark-transparent {
+.btn.btn-outline-secondary.fst {
   position: absolute;
-  border-color: white;
   left: 43%;
   top: 80%;
 }
 
 .btn.btn-dark-transparent:hover {
-  background-color:skyblue;
+  background-color: grey;
+}
+
+.nav-item:hover{
+  background-color: grey;
 }
 
 /* ===================================heading============================= */
@@ -58,6 +65,11 @@ body {
   color: white;
 }
 
+.aboutScroll{
+  text-decoration: none;
+  color: white;
+}
+
 /* ======================handles================= */
 .handles {
   position: absolute;
@@ -71,18 +83,115 @@ body {
 }
 
 .handles i:hover {
-  color: skyblue;
+  color: lightgrey;
 }
 
 /* ======================about me=========================== */
-#aboutme{
-  background-color: lightgrey;
-  margin: 0px;
-  padding-top:40px;
+.aboutme {
+  background-color: black;
   display: flex;
+  margin: 0px;
+  padding-top: 200px;
   text-align: center;
 }
 
-.right-abtme{
+.abt-img{
+  height: 100%;
+  width: 100%;
+}
+
+.resumeLink {
+  text-decoration: none;
+  color: white;
+}
+
+.aboutme h1, p {
+  color: white;
+}
+
+.right-abtme {
   padding: 50px;
+  margin-left: 50px;
+}
+
+.resume {
+  color: white;
+}
+
+/* ===================projects========================= */
+.project.row {
+  margin: 0px;
+}
+
+.project-heading {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.project {
+  background-color: black;
+}
+
+.col-md-6 {
+  padding: 25px;
+}
+
+.card.shadow-lg.p-3.mb-5.bg-white.rounded.card {
+  height: 100%;
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card-text {
+  color: grey;
+}
+
+.techUsed {
+  color: grey;
+}
+
+/* ============================skills================== */
+.skills-heading {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 100px;
+  margin: 0px;
+}
+
+.skills .row {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.lead {
+  color: white;
+}
+
+.progress {
+  width: 75%;
+}
+
+.pbar {
+  text-align: -webkit-center;
+}
+
+/* ===================================contact==================== */
+.getInTouch {
+  color: white;
+  padding: 100px;
+}
+
+.mailme {
+  text-decoration: none;
+}
+
+.last-small {
+  color: white;
 }
