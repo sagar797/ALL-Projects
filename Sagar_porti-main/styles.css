@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================navbar============================= */
+.navbar.navbar-expand-lg.navbar-light.bg-dark-transparent {
+  position: fixed;
+}
+
+.txt-color-navbar {
+  color: white;
+}
+
+.txt-color-btn {
+  color: white;
+}
+
+.btn.btn-outline-secondary.fst {
+  position: absolute;
+  left: 43%;
+  top: 80%;
+}
+
+.btn.btn-dark-transparent:hover {
+  background-color: grey;
+}
+
+.nav-item:hover {
+  background-color: grey;
+}
+
+/* ===================================heading============================= */
+.heading {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 35%;
+  align-content: center;
+  font-family: monospace;
+}
+
+.heading h1 {
+  color: white;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.heading h3 {
+  color: white;
+  font-size: 20px;
+}
+
+#particles-js {
+  background: black;
+  height: 100vh;
+}
+
+.text-slider-items {
+  display: none;
+}
+
+.text-slider {
+  color: white;
+}
+
+.aboutScroll {
+  text-decoration: none;
+  color: white;
+}
+
+/* ======================handles================= */
+.handles {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
+
+.handles i {
+  color: white;
+  margin: 20px;
+}
+
+.handles i:hover {
+  color: lightgrey;
+}
+
+/* ======================about me=========================== */
+.aboutme {
+  background-color: black;
+  display: flex;
+  margin: 0px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.abt-img {
+  height: 100%;
+  width: 100%;
+}
+
+.resumeLink {
+  text-decoration: none;
+  color: white;
+}
+
+.aboutme h1, p {
+  color: white;
+}
+
+.right-abtme {
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.resume {
+  color: white;
+}
+
+/* ===================projects========================= */
+.project.row {
+  margin: 0px;
+}
+
+.project-heading {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.project {
+  background-color: black;
+}
+
+.col-md-6 {
+  padding: 25px;
+}
+
+.card.shadow-lg.p-3.mb-5.bg-white.rounded.card {
+  height: 100%;
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card-text {
+  color: grey;
+}
+
+.techUsed {
+  color: grey;
+}
+
+.p1:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  /* background-image: url(images/liveshare.png); */
+}
+
+.p2:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  /* background-image: url(images/workbook.png); */
+}
+
+.p3:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.p4:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+/* ============================skills================== */
+.skills-heading {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 100px;
+  margin: 0px;
+}
+
+.skills .row {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.lead {
+  color: white;
+}
+
+.progress {
+  width: 75%;
+}
+
+.pbar {
+  text-align: -webkit-center;
+}
+
+/* ===================================contact==================== */
+.getInTouch {
+  color: white;
+  padding: 100px;
+}
+
+.mailme {
+  text-decoration: none;
+}
+
+.mailme:hover {
+  color: grey;
+}
+
+.last-small {
+  color: white;
+}
+
+.fa-code {
+  color: white;
+}
+
+.fa-code:hover {
+  color: grey;
+}
+
+.fa-heart {
+  color: white;
+}
+
+.fa-heart:hover {
+  color: grey;
+}
+
+.last {
+  color: white;
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sagar Gupta</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <!-- Import style.css from root directory -->
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- fonts -->
+</head>
+
+<body>
+  <!-- Animated background using particles.js -->
+  <div id="particles-js">
+    <!-- ===========================================================Navbar========================================================= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark-transparent">
+      <a class="navbar-brand" href="#particles-js"><span class="txt-color-navbar"><span>
+            <</span>/Sagar></Navbar>
+          </span></a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item px-4 active">
+            <a class="nav-link" href="#about"><span class="txt-color-navbar">About</span></a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#projects"><span class="txt-color-navbar">Projects</span></a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="https://drive.google.com/file/d/165pbVgH39sRBo7Cz_hnSlnZ9w9_HD5ce/view?usp=sharing"><span class="txt-color-navbar">Resume</span></a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#skills"><span class="txt-color-navbar">Skills</span></a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="#contact"><span class="txt-color-navbar">Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ==============================================name introduction animation text========================================== -->
+    <div class="heading">
+      <!-- <div class="text"> -->
+      <h3 class="display-2">Hi, My name is</h3>
+      <h1 class="display-2">Sagar Gupta</h1>
+      <h3 class="display-2">And I'm a
+        <span class="text-slider-items">Developer, Problem Solver, Coding Enthusiast</span>
+        <strong class="text-slider"></strong>
+      </h3>
+      <!-- </div> -->
+      <!-- <img class="main-img" src="./images/sagar-removebg-preview.png" alt=""> -->
+    </div>
+
+    <!-- =====================================================================social handles======================================================== -->
+    <div class="handles">
+      <a href="https://www.linkedin.com/in/sagar797/"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://www.instagram.com/isagar_gupta/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.facebook.com/sagar.gupta.5201254"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="https://github.com/sagar797"> <i class="fab fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/sagargu74936396"><i class="fab fa-twitter fa-2x"></i></a>
+    </div>
+
+    <button type="button" class="btn btn-outline-secondary fst"><span class="txt-color-btn"><a class="aboutScroll" href="#about">More about me</a></span></button>
+
+  </div>
+
+  <!-- ===============================================================About me==================================================================== -->
+  <div id="about" class="aboutme">
+    <img class="abt-img" src="images/circle.png" alt="images/circle.png">
+    <div class="right-abtme">
+      <h1 class="display-3">About me</h1>
+      <br><br>
+      <p class="lead">My name is Sagar Gupta. I’m a graduate of 2021 from Guru Gobind Singh Indraprastha University, Delhi with a degree in Electronics and Communication Engineering. I'm most passionate about giving back to the
+        community, and my goal is to pursue
+        this passion within the field of software engineering. In my free time, I like solving problems and working on projects.</p>
+      <br><br>
+      <button type="button" class="btn btn-outline-secondary resume"><span class="resume"><a class="resumeLink" href="https://drive.google.com/file/d/165pbVgH39sRBo7Cz_hnSlnZ9w9_HD5ce/view?usp=sharing">Resume</a></span></button>
+    </div>
+  </div>
+
+  <!-- ===================================education========================================== -->
+  <!-- will do later -->
+  <!-- ==================================================================projects==================================================================== -->
+  <h1 id="projects" class="project-heading display-3">Personal Projects</h1>
+
+  <div class="project row">
+
+    <div class="col-md-6">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded card p1">
+        <div class="card-body">
+          <h5 class="card-title">Liveshare</h5>
+          <p class="card-text">It is a real time application based on Socket.IO for n-directional communication.</p>
+          <a href="https://github.com/sagar797/Liveshare.git" class="btn btn-outline-secondary mr-3"><i class="fab fa-github"></i> Repo</a>
+          <a href="https://github.com/sagar797/Liveshare/archive/main.zip" target=" _blank" class="btn btn-outline-secondary"><i class="fab fa-github"></i> Clone Project</a>
+          <hr>
+          <div class="pb-3">Languages:
+            <a class="badge badge-light card-link"><span class="techUsed">JavaScript: 62.5 %</span></a>
+            <a class="badge badge-light card-link"><span class="techUsed">HTML: 27.8 %</span></a>
+            <a class="badge badge-light card-link"><span class="techUsed">CSS: 9.7 %</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded card p2">
+        <div class="card-body">
+          <h5 class="card-title">Workbook</h5>
+          <p class="card-text">It contains spreadsheet with features like modification in text color, font-size, background color, saving file in file system, formula-bar with cycle detection.</p>
+          <a href="https://github.com/sagar797/Workbook" class="btn btn-outline-secondary mr-3"><i class="fab fa-github"></i> Repo</a>
+          <a href="https://github.com/sagar797/Workbook/archive/master.zip" class="btn btn-outline-secondary"><i class="fab fa-github"></i> Clone Project</a>
+          <hr>
+          <div class="pb-3">Languages:
+            <a class="badge badge-light card-link"><span class="techUsed">JavaScript: 68.8 %</span></a>
+            <a class="badge badge-light card-link"><span class="techUsed">HTML: 21.2 %</span></a>
+            <a class="badge badge-light card-link"><span class="techUsed">CSS: 10.0 %</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded card p3">
+        <div class="card-body">
+          <h5 class="card-title">Speak It</h5>
+          <p class="card-text">It is a chrome extension developed using chrome api's which uses tts(text-to-speech) api to play synthesized text-to-speech.</p>
+          <a href="https://github.com/sagar797/Speak-It" class="btn btn-outline-secondary mr-3"><i class="fab fa-github"></i> Repo</a>
+          <a href="https://github.com/sagar797/Speak-It/archive/main.zip" class="btn btn-outline-secondary"><i class="fab fa-github"></i> Clone Project</a>
+          <hr>
+          <div class="pb-3">Languages:
+            <a class="badge badge-light card-link"><span class="techUsed">JavaScript: 90.0 %</span></a>
+            <a class="badge badge-light card-link"><span class="techUsed">HTML: 10.0 %</span></a>
+            <a class="badge badge-light card-link"><span class="techUsed">CSS: 0.0 %</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded card p4">
+        <div class="card-body">
+          <h5 class="card-title">Portfolio</h5>
+          <p class="card-text">Personal Portfolio created using HTML,CSS and JS. Trying to add more components stay tuned :) </p>
+          <a href="https://github.com/sagar797/Workbook" class="btn btn-outline-secondary mr-3"><i class="fab fa-github"></i> Repo</a>
+          <a href="https://github.com/sagar797/Workbook/archive/master.zip" class="btn btn-outline-secondary"><i class="fab fa-github"></i> Clone Project</a>
+          <hr>
+          <div class="pb-3">Languages:
+            <a class="badge badge-light card-link"><span class="techUsed">JavaScript: 3.4 %</span></a>
+            <a class="badge badge-light card-link"><span class="techUsed">HTML: 77.6 %</span></a>
+            <a class="badge badge-light card-link"><span class="techUsed">CSS: 19.0 %</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- =============================================================skills============================================================================== -->
+  <h1 id="skills" class="display-3 skills-heading">Skills</h1>
+
+  <div class="skills">
+    <div class="row">
+      <div class="col-12 col-md-6 pbar">
+        <h1 class="lead">Data Structures</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 pbar">
+        <h1 class="lead">Java</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 pbar">
+        <h1 class="lead">HTML/CSS</h1>
+        <div class="progress">
+          <br>
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 pbar">
+        <h1 class="lead">JavaScript</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 pbar">
+        <h1 class="lead">React</h1>
+        <div class="progress">
+          <br>
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 pbar">
+        <h1 class="lead">Electron JS</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 pbar">
+        <h1 class="lead">NodeJS</h1>
+        <div class="progress">
+          <br>
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 pbar">
+        <h1 class="lead">Git</h1>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ===============================================================Contact me========================================================================== -->
+
+  <footer id="contact" class="mt-auto py-5 text-center " style="background-color: black;">
+    <div class="container">
+      <h2 class="display-4 pb-3 text-center getInTouch">Get In Touch</h2>
+      <p class="lead text-center pb-3">I'm currently looking for full-time Software Engineering opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to
+        email me at, <a class="mailme" href="mailto:gupta.sagar797@gmail.com">gupta.sagar797@gmail.com</a>.</p>
+        <i class="fas fa-code"></i> <span class="last">with </span><i class="fas fa-heart"></i><span class="last"> by </span><a class="badge badge-dark mailme" rel="noopener" href="https://github.com/sagar797"
+        aria-label="My GitHub">Sagar Gupta</a>
+      <p class="last-small"><small class="text-muted">Project code is open source. Feel free to fork and make your own version.</small></p>
+    </div>
+  </footer>
+
+
+
+  <!-- =============================================================scripts============================================================ -->
+  <!-- navbar -->
+  <script src="js/nav.js" charset="utf-8"></script>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/68732ce216.js" crossorigin="anonymous"></script>
+
+
+  <script src="particles.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script>
+  if ($(".text-slider").length == 1) {
+
+var typed_strings = $(".text-slider-items").text();
+// console.log(typed_strings);
+
+var typed = new Typed(".text-slider", {
+    strings: typed_strings.split(", "),
+    typeSpeed: 50,
+    loop: true,
+    backDelay: 900,
+    backSpeed: 30,
+});
+}
+</script>
+  <!-- stats.js -->
+
+  <!-- typed animation name script file -->
+  
+</body>
+
+</html>
