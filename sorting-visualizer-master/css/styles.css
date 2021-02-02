@@ -1,0 +1,19 @@
+.btn{
+    margin: 10px 10px;
+}
+
+.jumbotron {
+    padding: 1rem 4rem;
+    background-color: #29302b;
+    color:#f2e6c4;
+}
+
+.labels{
+    font-size: 30px;
+}
+
+.display-3{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: times;
+}
